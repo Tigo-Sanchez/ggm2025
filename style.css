@@ -1,1 +1,33 @@
-body { font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; } h1 { color: #333; }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+}
+h1 {
+  color: #111;
+  font-size: 2.4em;
+}
+.card-links ul {
+  list-style: none;
+  padding: 0;
+}
+.card-links li {
+  margin: 0.6em 0;
+}
+.card-links a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+.card-links a:hover {
+  color: #005199;
+}
+footer {
+  margin-top: 3em;
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+}
